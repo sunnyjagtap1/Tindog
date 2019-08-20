@@ -1,0 +1,223 @@
+#title
+{
+  background-color: #ff4c68;
+}
+h1
+{
+  font-size: 4rem;
+  /* font-family: "montserrat-black"; */
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+
+
+}
+
+
+h2
+{
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* middlesection */
+h3
+{
+  font-size: 3rem;
+  font-weight: 900;
+}
+p
+{
+  color: #8f8f8f;
+}
+
+/* title image */
+
+.title-image
+{
+  width: 60%;
+  left: 15%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+@media (max-width: 1028px)
+{
+  .title-image
+  {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title
+  {
+    text-align: center;
+  }
+
+}
+
+
+#features
+{
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+
+
+}
+
+.feature-box
+{
+  text-align: center;
+  padding: 5%;
+}
+
+
+.icon
+{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover
+{
+  color: #ff4c68;
+}
+/* container */
+
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+
+/* navbar */
+
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item
+{
+  padding: 0 18px;
+}
+
+
+.navbar-brand
+{
+  font-size: 40px;
+  color: white;
+  font-family: "Ubuntu";
+}
+
+.nav-link
+{
+
+  font-size: 1.2rem;
+  font-family: "montserrat-light;"
+
+
+}
+
+/* dl buton */
+
+.dl-btn
+{
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/* testimonial */
+
+
+#testimonials
+{
+  text-align: center;
+  background-color: #ef6172;
+  color: #fff;
+}
+
+#press
+{
+  text-align: center;
+  padding-bottom: 3%;
+  background-color: #ef6172;
+}
+
+.testimonial-img
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo
+{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+.carousel-item
+{
+  padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing
+{
+  padding: 100px;
+  text-align: center;
+
+}
+
+.pricing-column
+{
+  padding: 3% 2%;
+
+}
+
+/* footer */
+
+#cta
+{
+  text-align: center;
+  padding: 100px;
+  color: #fff;
+  background-color: #ff4c68;
+}
+ #footer
+ {
+   background-color: #fff;
+   text-align: center;
+ }
+ .p1
+ {
+  padding: 0 0 3%;
+   font-size: 15px;
+
+ }
+
+ .icon-pad
+ {
+   color: black;
+   padding: 80px 5px 10px;
+
+ }
+ .icon-color1:hover
+ {
+   color: #3b5999;
+ }
+ .icon-color2:hover
+ {
+   color: #FCAF45;
+ }
+ .icon-color3:hover
+ {
+   color:  #1da1f2;
+ }
+ .icon-color4:hover
+ {
+   color: #0F9D58;
+ }
